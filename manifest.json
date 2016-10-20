@@ -1,0 +1,19 @@
+{
+  "name": "Next Up",
+  "description": "Next Up gives you insight on what's next.",
+  "version": "1.0.0",
+  "chrome_url_overrides" : {
+    "newtab": "src/index.html"
+  },
+  "options_page": "src/options.html",
+  "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'",
+  "permissions": [
+    "storage",
+    "history"
+  ],
+  "content_scripts": [],
+  "web_accessible_resources": [],
+  "browser_action": {},
+  "manifest_version": 2,
+  "minimum_chrome_version": "24"
+}
